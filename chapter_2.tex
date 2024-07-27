@@ -8,16 +8,6 @@
 
 \chapter{Related Works}
 \label{sec:relatedworks}
-
-This chapter provides a synthesis of past research, existing algorithms, and or state-of-the-art software that are related/similar to the thesis. It should not present detailed summaries of each related work, but rather present a cohesive comparison of different aspects of their work. At the end of each section and this chapter, it should be clear what research challenges and opportunities will be focused on for the proposal.
-
-The sections can be about approaches, application areas, and categories of solutions that give readers an deep understanding of the current state of the field. 
-
-Observe a consistent format when presenting each of the reviewed works. This must be selected in consultation with the prospective adviser.
-
-\textcolor{red}{DO NOT FORGET to cite your references.} Related works can be discussed multiple times in different sections of this chapter, depending on what is being discussed or compared.
-
-
 \begin{comment}
 %
 % IPR acknowledgement: the contents within this comment are from Ethel Ong's slides on RRL.
@@ -49,8 +39,52 @@ Guide on Writing your Related Works chapter
 
 \end{comment}
 
+\section{Difficulty in Classes}
+There are multiple factors which affects students' hardship in classes \cite{cmu}.
+\begin{enumerate}
+    \item Students may not see value in their curriculum
+    \item Students does not believe their work will increase their performance
+    \item Demotivated by the results and reward
+    \item Restricted classroom environment
+    \item Physical, mental, or other personal problems
+\end{enumerate}
+The examples above doesn't describe all but some of the significant factors which students are mostly affected with. There were several attempts in previous studies where some of these factors were negated with an integration of game-based learning in classrooms. \cite{watson2011} developed and introduced a video game to the classroom to teach students about World War II. Their study was able to turn static classroom environment into more friendly student-centered class and amplify the students' participation with the learning module. \cite{clickers2010} evaluated an effectiveness of an external tool called \textit{Clickers} to increase an involvement of students by integrating a software where students can be interacted with the learning materials within the classroom environment. Their study was able to prove the improvement of students' attention span within the class with the usage of external tool and occupy them with discussions and class participation. These studies from the past have proven the game-based learning's positive effects, as well as its side effects thoroughly. It is essential for the researchers to analyze and understand why game-based learning enhances the performance of some students while proving less effective for others. Understanding these factor is crucial for pinpointing what specific conditions or variables contribute to the efficacy or ineffectiveness to this approach.
 
+\begin{comment}
+    
 
+\section{Clickers in Classroom}
+There has been numerous attempt to gain back students' attention in class through the usage of an external tools. Clickers, one of the tools which was used by the teachers in the classroom settings introduced inter-activeness between the student and a teacher by promoting a classroom response systems. Clickers utilizes a remote control which a students can use to take attendance, answer a multiple choice questions, or to kick start a discussion within the class \cite{tophat:persaud}. A data in the study by \cite{clickers2010} suggests that most of the students attention alternates between an engaged and non-engaged state in a short cycle of 10-20 minutes. Within the span, the students are easily distracted by other dues such as doing homework for other class or checking their texts and social networks. The study also suggests that the usage of external tools such as Clickers to demonstrate and ask a question to the class significantly increased the attention of the students compared to the lecture-based learning materials and reduced distracted behaviors from the students. 
+
+Unfortunately, there is always a challenge when introducing an external tools to the classroom. Firstly, the institution must have sufficient funds to approve the cost that will be associated with implementation. This involves not just a hardware but also setting up sufficient environment, such as a supplying a consistent WI-FI bandwidth across the entire classrooms. They must also invest in time in educating teachers to efficiently use certain tool in class. Additionally, an external tool - specifically Clickers has the potential to be misused by the students. A student can simply fake their friends' attendance or answer a question for them which will affect their understanding of a module, and cause a long-term effect in their studies \cite{tophat:persaud}. 
+
+While introduction of an external tools to enhance the students' attention and create a more student-centered environment seems to be effective, it must always be approached with caution to prevent an exploitation of a tool by students. It is the responsibility of both the teacher and the creator of the tool to understand the students' frustration in class and address them accordingly. 
+
+\section{Game Based Learning}
+Game based learning is a learning technique which utilizes a game either digitally or non-digitally to increase a performance of a student by enhancing critical thinking and problem solving skills and creating student-centered environment in classes \cite{tophat:tamosevicius}. Some of the known example of the game based learning includes Menti, Kahoot, Handmade Board games, and real-life games which involves physical participation of the student.
+
+Data from several case studies involving the integration of game-based learning into classrooms shows its effectiveness in improving student performance. A study from \cite{gameOn} showed increase in students' preference and engagement from gamified lectures, and their ability to interact and share ideas reported to be more effective and amplified. Another study from \cite{watson2011} involved \textit{Making History} - a video game designed with an educational purpose to teach students the history of World War II. This case study showed how the integration of game-based learning into a standard American classroom was able to convert the restricted teacher-centered classroom where students were mostly passive into a more student-centered environment which made students more engaged and less hesitant to share their ideas to the class.  
+
+While game-based learning does provide positive effects toward students, there are side effects which may occur if not integrated properly to the class. In recent years, there has been an increase in phenomena of \textit{Gaming the System}, where learners attempt to exploit the education system to achieve a high performance rather than attempting to absorb the lessons \cite{baker2008}. It is important to understand why students choose to game the system to create a educational that students do not attempt to exploit it.
+
+According to \cite{malone1980fun} in his study on what makes things fun to learn, there are certain criteria which needs to be considered to create an effective game for education. 1. The game must have clear goal and must be compelling, 2. The player must know if they are getting closer to the goal, 3. Game should provide varying difficulty for the varying skill levels of the players. Another insight from \cite{mozelius2017} in the perspective of the games that will be used for education must be 1. Not to costly, and must be easy to install, 2. The game should be playable under 40 minutes to be used in a classroom settings, 3. If not, the game is better to be used as a homework instead. These criteria from the previous studies must be carefully observed and integrated into the project accordingly to avoid exploits from the students.  
+\end{comment}
+
+\section{Historic Augmented Reality Application (HARA)}
+There has been several studies on applying augmented reality (AR) technology into education to amplify the learning of the students and create an immersive environment for them \cite{ARVRRome}. Although there are numerous studies from various parts of the world, there are few papers discussing the application of AR technology in school settings in the Philippines. 
+
+Historic Augmented Reality Application (HARA) is an application developed in the Philippines which aims to teach students the Philippines-American colonization period through immersive story telling \cite{Hara}. The application aimed to teach students the three distinct event during the American colonization, namely the battle of manila bay, mock battle of manila, and the first shot in Philippines-American war. 
+
+HARA is a mobile-based application integrated with AR technology, and the decision was made to develop it using the Unity and Vuforia engine. This choice was influenced by Unity's capability to publish across over 25 platforms compared to other suitable mobile development platforms such as Android Studio, and technical aspect of how Vuforia engine is easily co operable with Unity engine was another factor in the decision making. The HARA relies on image recognition of the predefined set images through the cameras of the mobile phones, after which the application overlays a 3D animated scene displaying the event shown in the images. The development of the HARA lasted from May to October of year 2018, with first four months spent on development and beta release of the application, and final two for user evaluation and modification. 
+
+HARA was the first application in the Philippines which utilizes augmented reality with 3D animated scenes to be used to teach history in a classroom setting. As a pioneering application in the field, to ensure the standard in the field of human-computer interaction field, the application usability was surveyed with a questionnaire based from the works of Guimarães and Martins which is used to evaluate AR application in terms of variables such as effectiveness, efficiency, and such by the co-designers of the application. The application received 82 percentage markings on its effectiveness, but received poor markings on satisfaction - 51, and efficiency - 43 from the co-designers due to factors such as slow animation and loading time. While the designers weren't fully satisfied with the application, the overall qualitative feedback from the users were positive. The application received a high overall markings of 4.2 out of 5, and got positive reviews from both students and teachers. Overall, the HARA shows how the AR technology is a promising tool in a field of education to effectively create immersive environment for the students.
+
+\section{EON-XR: The Urban Planning of Rome}
+With the growth of popularity of video games worldwide and the advancement in the field of Augmented and Virtual reality \cite{enterpriseappstoday2023}, Augmented Reality (AR) is no longer a technology that is foreign towards the young audiences such as high school and college students around the world. With student's apparent lack of motivation to study \cite{medium:mosley} and their hardship in classes, there has been numerous case studies on integrating gamification into education to boost the student's performance in class \cite{watson2011}. 
+
+The study on \textit{EON-XR}, stands out among similar works as it is a simulation video game embedded with both Augmented and Virtual reality technology and was developed to be used for educational purposes \cite{ARVRRome}. The application was developed for mobile settings using Unity with Vuforia engine plug-ins for AR. The models of the buildings and characters were made with a 3DS Max modeling tool, maximizing the details of each assets for greater user immersion. 
+
+The students were allowed to utilize the AR portion of the application to observe the visualization of the city elements with an optional description on the side to further enhance the explanation. This activity was told to increase the educational value of the game, and is to amplify the immersion of the era for the students. Aside from its AR feature, the EON-XR application also provides the user with a virtual reality (VR) simulation to allow them to walk around the cities of ancient Rome and visit notable landmarks such as The Colosseum on foot. The user can roam around a pre-designed city or build a city on their own to create an immersive simulation to their liking. To increase the historical potential of the game, the developers added a scroll with information of notable buildings inside them which the users can read in first person upon entering the buildings. This study shows an evidence of AR and VR being utilized to create immersive environment for the users, and create suitable environment around them to absorb the information efficiently.
 
 
 
